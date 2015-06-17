@@ -1,0 +1,23 @@
+#bingo, #current {
+	margin: 40px 0;
+}
+
+#digits li {
+  width: 50px;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+
+#digits li:first-child {
+	font-weight: bold;
+}
+
+#currentDigit {
+  width: 108px;
+  margin: 20px auto;
+  font-size: 80px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px;
+}
